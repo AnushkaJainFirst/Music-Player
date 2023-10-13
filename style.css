@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: beige;
+}
+
+#container {
+    height: 42.5rem;
+    width: 30rem;
+    margin: auto;
+    background-color: #a7d6c6;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 1rem auto 0.7rem;
+    font-size: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 15rem;
+    width: 25rem;
+    border-radius: 1.5rem;
+}
+
+#song-list {
+    padding: 0;
+}
+
+.song-item {
+    list-style: none;
+    width: 15rem;
+    margin: 1rem auto;
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.song-item:hover {
+    background-color: bisque;
+}
+
+input {
+    width: 20rem;
+    margin: 1rem auto;
+}
+
+button {
+    height: 3.3rem;
+    width: 3.3rem;
+    margin: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+i {
+    font-size: 1.5rem;
+}
